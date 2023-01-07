@@ -62,5 +62,15 @@ namespace SearchNameInfrastructure
         {
             return _cacheService.GetAllDatas();
         }
+        public List<Table> ArrayRequest(List<string> names)
+        {
+            List<Table> tableList = new List<Table>();
+            foreach (var name in names)
+            {
+                Table table = _webReques.Get<Table>(name);
+                tableList.Add(table);
+            }
+            return tableList;
+        }
     }
 }

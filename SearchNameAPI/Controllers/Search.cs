@@ -35,5 +35,11 @@ namespace SearchNameAPI.Controllers
             var top = _requests.RedisTop();
             return Ok(top);
         }
+        [HttpPost("array-request")]
+        public IActionResult GetArrayData(List<string> names)
+        {
+            var response = _requests.ArrayRequest(names);
+            return Ok(response);
+        }
     }
 }

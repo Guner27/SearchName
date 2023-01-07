@@ -11,6 +11,7 @@ namespace SearchName.Application
     {
         string Request1(string key);
         string Request2();
-        public List<Table> RedisTop();
+        List<Table> RedisTop();
+        List<Table> ArrayRequest(List<string> names);
     }
 }
