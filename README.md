@@ -16,3 +16,12 @@ Backend için .Net Core
 Onion Architecture
 Redis Docker
 
+## Screenshots
+
+![screenshot][link1]
+![screenshot][link2]
+
+
+[link1]:https://raw.githubusercontent.com/Guner27/SearchName/master/Screenshot1.png "Screenshot 1"
+[link2]:https://raw.githubusercontent.com/Guner27/SearchName/master/Screenshot2.png "Screenshor 2"
+
